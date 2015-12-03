@@ -10,15 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require fancybox
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//=# require turbolinks
+//= require fancybox
 //= require_tree .
-
-
 $(document).ready(function() {
   $("a.fancybox").fancybox();
 });
 
-//$(document).on("page:load ready", fancybox);
+// $(document).on("page:load ready", fancybox);

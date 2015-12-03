@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'example/show'
 
-  #root 'home#new'
+  # root 'home#new'
   root  "example#show"
 
   get '/signup' => 'users#new'
