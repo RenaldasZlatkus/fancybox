@@ -5009,3 +5009,64 @@ Started GET "/assets/users.self-d873000dc0a6ac70ef3f6cd4ae4272cdd90c56f6ced8e252
 
 
 Started GET "/assets/application.self-a62507d9c1d0453d0a95607f73136ed1d57dd4e311b7d45a3a616b781fb91311.js?body=1" for ::1 at 2015-12-03 16:27:56 +0100
+
+
+Started GET "/" for ::1 at 2015-12-03 16:46:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ExampleController#show as HTML
+  Rendered example/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 206ms (Views: 199.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_background.self-c7f00a0b4a1776b76f1e1e2c0ff8eaa2416bee4a631e16313631f1b9741afb19.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/_frame_style.self-63db41a6bf36f6d2de94e7ee557ae9e0c4782e36e099aaee2c357ea4a68ab674.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/example.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/home.self-d91aa4e7ea037b5381141da64192943be74749e03f3d286373c126c6ffc0177f.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/_skin.self-dcbd460f1cefc4138bb5afbf2f8c82f033e7847226aedaedf786413dc5303f6a.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/users.self-0d4e8ebd7d5b62ba98f36bc393c289a39ed3b3af56419b6df4d98fe667a9236f.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/jquery.fancybox.self-362c6e2b20fd0c8020f2a74a6dacce9ce9bbf2e31a6920f75ff5380830ac940f.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/fancybox.self-c554e97af4cdc8eafeb7c6f90768774a132751893545b63619edb0e571367846.css?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/jquery.browser.self-38b39b6fc732c17aa524f14f29b775182de517c1dc8a96007188804620765bfd.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/jquery.fancybox.self-128ac461e83ba76bc61246e8d0a12fa1eb5c3f49b5b8fd7ab9740935da5ec9ce.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/fancybox.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/example.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/users.self-d873000dc0a6ac70ef3f6cd4ae4272cdd90c56f6ced8e2522516936707468587.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
+
+
+Started GET "/assets/application.self-a62507d9c1d0453d0a95607f73136ed1d57dd4e311b7d45a3a616b781fb91311.js?body=1" for ::1 at 2015-12-03 16:46:17 +0100
