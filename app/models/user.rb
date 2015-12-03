@@ -1,4 +1,4 @@
-class Home < ActiveRecord::Base
+class User < ActiveRecord::Base
 
     has_secure_password
     
@@ -9,6 +9,7 @@ class Home < ActiveRecord::Base
 	validates_presence_of :lname
 
 	validates_presence_of :email, uniqueness: true
-	validates_presence_of :password on: :create #length: { in: 4..20 }
-	validates_confirmation_of :password
+	validates_presence_of :password 
+	# validates_confirmation_of :password
+	# on: :create #length: { in: 4..20 }
 end
