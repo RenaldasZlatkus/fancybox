@@ -1,0 +1,94 @@
+
+<h1>
+Welcome! IFrameYou!
+</h1>
+
+<p>
+Description
+</p>
+<body>
+<table width="100%" align="left">
+<p class="click"><a href = "javascript:void(0)" onclick = "createlightbox('signup-lightbox')">sign up </a>
+</p>
+<tr>
+<td>
+<div id="signup-lightbox" class="white_content" > 
+<a href = "javascript:void(0)" onclick = "closelightbox('signup-lightbox')" style="float:right">
+<img src="http://2.bp.blogspot.com/-aXHXnOQPBJM/Tx_p1qqNI4I/AAAAAAAAAeU/bH0tlsikADQ/s1600/icon_cancel.gif" alt="" /></a>      
+<table align="center" cellpadding="5" cellspacing="5" >
+<tr>
+<td colspan="2" class="Title" align="center">Signup Form</td>
+</tr>
+
+<%= form_for @users, :html => { :multipart => true } do |f| %>
+
+<!-- :url => {:action => "create" do |f| %>   -->
+
+	<%= f.label :fname, 'First name:' %>
+	<%= f.text_field :fname %>
+
+	<br><br>
+	<%= f.label :lname, 'Last name:' %>
+	<%= f.text_field :lname %>
+
+	<br><br>
+	<%= f.label :email, 'Email:' %>
+	<%= f.text_field :email %>
+
+	<br><br>
+	<%= f.label :password, 'Password:' %>
+	<%= f.password_field :password %>
+
+	<br><br>
+	<%= f.label :password_confirmation, 'Password:' %>
+	<%= f.password_field :password_confirmation%>
+
+    <br><br>
+	<%= f.submit :'Submit' %>
+
+<% end %>
+
+</table>
+</div>
+</td>
+</tr> 
+</table>
+<div id="fade" class="black_overlay"></div>
+
+<!-- login form -->
+
+<table width="100%" align="left">
+<tr><td>
+<p class="click"><a href = "javascript:void(0)" onclick = "createlightbox('login-lightbox')">login </a></p>
+
+<div id="login-lightbox" class="white_content" > 
+<a href = "javascript:void(0)" onclick = "closelightbox('login-lightbox')" style="float:right">
+<img src="http://2.bp.blogspot.com/-aXHXnOQPBJM/Tx_p1qqNI4I/AAAAAAAAAeU/bH0tlsikADQ/s1600/icon_cancel.gif" alt="" /></a>      
+<table align="center" cellpadding="5" cellspacing="5" >
+<tr>
+<td colspan="2" class="Title" align="center">Login Form</td>
+</tr>
+<tr>
+<td class="label">              
+email:</td>
+<td align="center">
+<input id="Text1" type="text" /></td>
+</tr>
+<tr>
+<td class="label">              
+Password:</td>
+<td align="center">
+<input id="Text2" type="password" /></td>
+</tr>
+<tr>
+<td>              
+<input id="Button1" type="button" value="Login" />
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</form>
+</table>
+</body>

@@ -1,0 +1,84 @@
+%iframe {
+	width: 49.5%;
+	height: 21.5em;
+	// border: 2px solid blue; 
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#fullscreen {
+	@extend %iframe;
+	width: 100%;
+	height: 43em;
+
+}
+
+.full {
+	@extend %iframe;
+	width: 100%;
+}
+
+// #bottomfull {
+// 	@extend %iframe;
+// 	width: 100%;
+// }
+
+#leftfull {
+	@extend %iframe;
+	height: 43em;
+}
+
+#rightfull {
+	@extend %iframe;
+	height: 43em;
+	float: right;
+}
+
+.left {
+	@extend %iframe;
+}
+
+.right {
+	@extend %iframe;
+	float: right;
+}
+
+// #bottomleft {
+// 	@extend %iframe;
+// 	float: left;
+// }
+
+// #bottomright {
+// 	@extend %iframe;
+// 	float: right;
+// }
+
+.leftthree {
+	@extend %iframe;
+	width: 33%;
+	height: 43em;
+	float: left;
+	margin-left: 2em;
+}
+
+.rightthree {
+	@extend %iframe;
+	width: 33%;
+	height: 43em;
+	float: right;
+}
+
+.halfleftthree {
+	@extend %iframe;
+	width: 33%;
+	float: left;
+	margin-left: 2em;
+}
+
+.halfrightthree {
+	@extend %iframe;
+	width: 33%;
+	float: right;
+}

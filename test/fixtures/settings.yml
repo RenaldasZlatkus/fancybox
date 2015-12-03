@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  frame: 1
+  skin: MyString
+  style: MyString
+  background: MyString
+  user_id: 1
+
+two:
+  frame: 1
+  skin: MyString
+  style: MyString
+  background: MyString
+  user_id: 1
